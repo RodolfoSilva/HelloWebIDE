@@ -1,9 +1,16 @@
-<core:View xmlns:core="sap.ui.core" 
-	xmlns:mvc="sap.ui.core.mvc" 
-	xmlns="sap.m" controllerName="com.capgemini.rodolfo.view.hello" 
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="com.capgemini.rodolfo.view.hello">
 	<Page title="Title">
 		<content>
+		
+		<Label text="Label" width="100%" id="__label0"/>
+		
+		<Input width="100%" id="__input0"/>
+		
+		<CheckBox id="__box0"/>
+		
+		<Switch id="__switch0"/>
+		
+		<Slider id="__slider0"/>
 		
 		</content>
 	</Page>
